@@ -16,7 +16,7 @@ h1{
 .back-pic img{
   border-radius: 100%;
   width: 45%;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
 }
 
 
@@ -69,6 +69,8 @@ h1{
   margin-bottom: 0.5rem;
 }
 .speaker{
+  position: relative;
+  top: -1px;
   background-color: #fff;
   width: 55%;
   height: 25%;
@@ -240,10 +242,60 @@ h1{
     color: #3e2753;
     text-align: center;
     line-height: 2;
-    margin: auto; 1.35rem;
+    margin: auto 1.35rem;
   }
   .low-heading p{
     opacity: 0.5;
     margin: auto auto 2rem;
     width: 320px;
   }
+
+
+/* media queries */
+@media (min-width: 1360px) {
+  .purple{
+    width: 30.8%;
+    height: 680.5px;
+    left: -2%;
+    border-bottom-right-radius: 270px;
+    border-bottom-left-radius: 190px;
+
+  }
+  .engulf{
+    display: flex;
+  }
+  .wrapper{
+    margin: auto;
+    margin-right: 9%;
+    margin-top: 8%;
+    margin-left: 24.5%;
+    display: inline-block;
+  }
+  .low-heading{
+    position: relative;
+    padding-top: 200px;
+    margin: auto;
+    margin-right: 0;
+    text-align: left;
+    margin-left: 0;
+    display: inline-block;
+  }
+  .low-heading p{
+    width: 433px;
+  }
+  .grey{
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    height: 680px;
+    background-color: #c6cacd;
+    width: 24%;
+    opacity: 10%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 311px;
+  }
+  .attribution{
+    margin-top: 30px;
+  }
+
+}
